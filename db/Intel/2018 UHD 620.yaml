@@ -1,0 +1,31 @@
+gpu: UHD Graphics 620 Mobile
+modes:
+- connector: USB-C
+  resolution: 2560x1440@144
+  bits: 8
+  color: RGB
+  hdr: true
+  vrr: false
+  supported: true
+  notes: tested using USB-C to DisplayPort dongle
+- connector: HDMI
+  resolution: 1080p@120
+  bits: 8
+  color: RGB
+  hdr: false
+  vrr: false
+  supported: true
+- connector: HDMI
+  resolution: 1440p@60
+  bits: 8
+  color: RGB
+  hdr: false
+  vrr: false
+  supported: true
+- connector: HDMI
+  resolution: 4k@30
+  bits: 8
+  color: RGB
+  hdr: false
+  vrr: false
+  supported: true

@@ -1,0 +1,30 @@
+:root {
+  color-scheme: dark;
+}
+
+body {
+  color: white;
+  background-color: rgb(58, 58, 60);
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: rgb(10, 132, 255);
+}
+
+/* Brand color according to https://encycolorpedia.com/search?q=nvidia */
+.manufacturer_color_NVIDIA {
+  color: #76b900;
+}
+
+/* Brand color according to https://encycolorpedia.com/search?q=intel */
+.manufacturer_color_Intel {
+  color: #0071c5;
+}
+
+/* Brand color according to https://www.color-hex.com/color-palette/12321 */
+.manufacturer_color_AMD {
+  color: #ef0707;
+}

@@ -1,0 +1,7 @@
+# tpu_id and tpu_url are available since January 2025 release
+# https://github.com/painebenjamin/dbgpu/issues/1
+dbgpu >= 2025.1
+
+# for nicer debugging environment
+dbgpu[fuzz]
+rich==13.7.1

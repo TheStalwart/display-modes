@@ -1,0 +1,10 @@
+gpu: Radeon RX 6700 XT
+modes:
+- connector: HDMI
+  resolution: 4k@120
+  bits: 10
+  color: YCbCr444
+  hdr: true
+  vrr: true
+  supported: true
+  notes: requires high quality HDMI 2.1 cable

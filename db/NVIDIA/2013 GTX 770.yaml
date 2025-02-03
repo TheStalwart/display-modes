@@ -1,0 +1,31 @@
+gpu: GeForce GTX 770
+modes:
+- connector: DP
+  resolution: 2560x1440@120
+  bits: ???
+  color: ???
+  hdr: false
+  vrr: ???
+  supported: true
+- connector: DP
+  resolution: 2560x1440@120
+  bits: ???
+  color: ???
+  hdr: true
+  vrr: ???
+  supported: false
+- connector: DP
+  resolution: 2560x1440@144
+  bits: ???
+  color: ???
+  hdr: false
+  vrr: ???
+  supported: false
+- connector: HDMI
+  resolution: 2560x1440@60
+  bits: ???
+  color: ???
+  hdr: false
+  vrr: ???
+  supported: false
+  notes: GTX 770 does not want to output 1440p signal to 1440p display via HDMI natively, only upscaled to 4k30 to be downscaled back to into a blurry, laggy mess
