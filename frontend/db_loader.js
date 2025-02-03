@@ -5,13 +5,15 @@ function loadDB() {
 }
 
 function buildHTML(db) {
+  var gpu_list_container = document.getElementById('gpu-list')
+
   db.forEach((entry) => {
     console.log(entry)
 
     var h1 = document.createElement('h1')
     h1.className = `manufacturer_color_${entry.manufacturer}`
     h1.innerText = `[${entry.release_year}] ${entry.manufacturer} ${entry.gpu}`
-    document.body.appendChild(h1)
+    gpu_list_container.appendChild(h1)
 
     var ul_of_modes = document.createElement('ul')
 
@@ -26,6 +28,6 @@ function buildHTML(db) {
       ul_of_modes.appendChild(li_of_a_mode)
     });
 
-    document.body.appendChild(ul_of_modes)
+    gpu_list_container.appendChild(ul_of_modes)
   });
 }
