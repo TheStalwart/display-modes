@@ -1,0 +1,16 @@
+gpu: GeForce GTS 450
+modes:
+- connector: MiniHDMI
+  resolution: 1080p@60
+  bits: 8
+  color: RGB
+  hdr: false
+  vrr: false
+  supported: true
+- connector: DVI
+  resolution: 1080p@60
+  bits: 8
+  color: RGB
+  hdr: false
+  vrr: false
+  supported: true
