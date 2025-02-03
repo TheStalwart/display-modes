@@ -7,4 +7,4 @@ dbgpu[fuzz]
 rich==13.7.1
 
 # the rest of the dependencies
-PyYAML > 6.0.2
+PyYAML >= 6.0.2
