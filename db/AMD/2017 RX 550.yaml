@@ -1,0 +1,18 @@
+gpu: Radeon RX 550
+modes:
+- connector: HDMI
+  resolution: 1440p@144
+  bits: 8
+  color: RGB
+  hdr: false
+  vrr: true
+  supported: true
+  notes: HDR toggle switch is available but cannot be enabled
+- connector: DP
+  resolution: 1440p@144
+  bits: 10
+  color: RGB
+  hdr: false
+  vrr: true
+  supported: true
+  notes: HDR toggle switch is available but cannot be enabled
