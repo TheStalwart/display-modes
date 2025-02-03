@@ -1,0 +1,16 @@
+gpu: Radeon HD 6770
+modes:
+- connector: HDMI
+  resolution: 1080p@60
+  bits: 8
+  color: RGB
+  hdr: false
+  vrr: false
+  supported: true
+- connector: DVI
+  resolution: 1080p@60
+  bits: 8
+  color: RGB
+  hdr: false
+  vrr: false
+  supported: true
