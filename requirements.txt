@@ -5,3 +5,6 @@ dbgpu >= 2025.1
 # for nicer debugging environment
 dbgpu[fuzz]
 rich==13.7.1
+
+# the rest of the dependencies
+PyYAML > 6.0.2
