@@ -18,7 +18,7 @@ function buildHTML(db) {
     entry.modes.forEach(mode => {
       var li_of_a_mode = document.createElement('li')
 
-      li_of_a_mode.innerText = `${mode.connector} ${mode.resolution}: ${mode.supported ? '✅' : '❌'}`
+      li_of_a_mode.innerText = `${mode.connector} ${mode.resolution}${mode.hdr ? ' [HDR]' : ''}${mode.vrr ? ' [VRR]' : ''}: ${mode.supported ? '✅' : '❌'}`
       if (mode.notes) {
         li_of_a_mode.innerText = `${li_of_a_mode.innerText} (${mode.notes})`
       }
