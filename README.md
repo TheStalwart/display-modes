@@ -10,6 +10,10 @@ and does not account for modern features like HDR and stream compression,
 so instead of keeping results of my testing in a private stash
 i've built a simple frontend for public use.
 
+## Project supporters
+
+- waywern2012 (provided LG 27GN800 monitor)
+
 ## Development environment
 
 Install requirements:
