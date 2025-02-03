@@ -1,0 +1,38 @@
+gpu: GeForce GTX 660
+modes:
+- connector: DP
+  resolution: 2560x1440@120
+  bits: 8
+  color: RGB
+  hdr: false
+  vrr: false
+  supported: true
+  notes: G-Sync on this GPU only works for _real_ "G-Sync Ultimate" displays and is not compatible with LG 27GN800 i tested on, which is "G-Sync Compatible"
+- connector: HDMI
+  resolution: 1080p@120
+  bits: 8
+  color: RGB
+  hdr: false
+  vrr: false
+  supported: true
+- connector: HDMI
+  resolution: 1440p@60
+  bits: 8
+  color: RGB
+  hdr: false
+  vrr: false
+  supported: true
+- connector: HDMI
+  resolution: 4k@60
+  bits: 8
+  color: YCbCr420
+  hdr: false
+  vrr: false
+  supported: true
+- connector: HDMI
+  resolution: 4k@30
+  bits: 8
+  color: RGB
+  hdr: false
+  vrr: false
+  supported: true
