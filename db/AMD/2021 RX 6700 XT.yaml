@@ -8,3 +8,39 @@ modes:
   vrr: true
   supported: true
   notes: requires high quality HDMI 2.1 cable
+
+- connector: HDMI
+  resolution: 1080p@240
+  bits: 8
+  color: RGB
+  hdr: false
+  vrr: true
+  supported: true
+  notes: Tested on ROG Strix XG17 display that does not support HDR
+
+- connector: HDMI
+  resolution: 1440p@144
+  bits: 8-bit with dithering
+  color: RGB
+  hdr: true
+  vrr: true
+  supported: true
+  notes: Tested on LG 27GN800. Enabling HDR downgrades color to 8-bit with dithering
+
+- connector: HDMI
+  resolution: 1440p@144
+  bits: 8
+  color: RGB
+  hdr: false
+  vrr: true
+  supported: true
+  notes: Tested on LG 27GN800. Disabling HDR results in full 8-bit color
+
+- connector: DP
+  resolution: 1440p@144
+  bits: 10
+  color: RGB
+  hdr: true
+  vrr: true
+  supported: true
+  notes: Tested on LG 27GN800
