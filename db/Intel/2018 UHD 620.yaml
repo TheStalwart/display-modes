@@ -25,6 +25,7 @@ modes:
   hdr: false
   vrr: false
   supported: true
+  notes: Maxed out at 60hz when connected to a 1440p@144 LG 27GN800 monitor
 
 - connector: HDMI
   resolution: 4k@30
