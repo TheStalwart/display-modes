@@ -8,10 +8,12 @@ modes:
   vrr: false
   supported: true
   notes: G-Sync on this GPU only works for _real_ "G-Sync Ultimate" displays and is not compatible with LG 27GN800 i tested on, which is "G-Sync Compatible"
+
 - connector: HDMI
   resolution: 2560x1440@60
   supported: false
   notes: GTX 770 does not want to output 1440p signal to 1440p display via HDMI natively, only upscaled to 4k30 to be downscaled back to into a blurry, laggy mess. Creating custom resolution results in pink lines on top of the blurry mess
+
 - connector: HDMI
   resolution: 1080p@120
   bits: 8
@@ -19,6 +21,17 @@ modes:
   hdr: false
   vrr: false
   supported: true
+  notes: Maxed out at 120hz with LG 27GN800 even though the monitor supports 144hz and GPU can do 144hz with ROG Strix XG17. Tested with verified HDMI 2.1 cable, still no 144hz
+
+- connector: HDMI
+  resolution: 1080p@144
+  bits: 8
+  color: RGB
+  hdr: false
+  vrr: false
+  supported: true
+  notes: HDMI output maxed out at 144hz when connected to a 1080p 240hz monitor. Monitor is fed 1080p signal even if desktop resolution is set to a lower value
+
 - connector: HDMI
   resolution: 4k@60
   bits: 8
@@ -26,6 +39,7 @@ modes:
   hdr: false
   vrr: false
   supported: true
+
 - connector: HDMI
   resolution: 4k@30
   bits: 8
