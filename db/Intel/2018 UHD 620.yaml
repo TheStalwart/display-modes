@@ -7,7 +7,16 @@ modes:
   hdr: true
   vrr: false
   supported: true
-  notes: tested using USB-C to DisplayPort dongle
+  notes: Tested using USB-C through DisplayPort dongle to LG 27GN800 monitor
+
+- connector: USB-C
+  resolution: 1080p@240
+  bits: 8
+  color: RGB
+  hdr: false
+  vrr: false
+  supported: true
+  notes: Connected via USB C-to-C cable to a 1080p@240 ROG Strix XG17 monitor.
 
 - connector: HDMI
   resolution: 1080p@120
