@@ -8,6 +8,7 @@ modes:
   vrr: false
   supported: true
   notes: tested using USB-C to DisplayPort dongle
+
 - connector: HDMI
   resolution: 1080p@120
   bits: 8
@@ -15,6 +16,8 @@ modes:
   hdr: false
   vrr: false
   supported: true
+  notes: Maxed out at 120hz when connected to a 1080p@240 ROG Strix XG17 monitor
+
 - connector: HDMI
   resolution: 1440p@60
   bits: 8
@@ -22,6 +25,7 @@ modes:
   hdr: false
   vrr: false
   supported: true
+
 - connector: HDMI
   resolution: 4k@30
   bits: 8
