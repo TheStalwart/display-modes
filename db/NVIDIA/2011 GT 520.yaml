@@ -3,7 +3,7 @@ modes:
 - connector: VGA
   resolution: 800x600@100
   supported: true
-  notes: Tested on LG 775FT
+  notes: Tested successfully on LG 775FT, did not work on Dell P1130 even with custom resolution defined
 
 - connector: VGA
   resolution: 1024x768@85
