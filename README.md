@@ -2,6 +2,8 @@
 
 A detailed database of tested display modes of various GPUs.
 
+View compiled database here: <https://thestalwart.github.io/display-modes/>.
+
 This project aims to document maximum supported display modes of GPUs,
 as well as weird edge cases like NVIDIA GTX 770 unable to output 1440p natively via HDMI port.
 
