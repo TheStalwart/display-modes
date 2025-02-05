@@ -8,6 +8,7 @@ modes:
   vrr: false
   supported: true
   notes: G-Sync on this GPU only works for _real_ "G-Sync Ultimate" displays and is not compatible with LG 27GN800 i tested on, which is "G-Sync Compatible"
+
 - connector: HDMI
   resolution: 1080p@120
   bits: 8
@@ -15,6 +16,7 @@ modes:
   hdr: false
   vrr: false
   supported: true
+
 - connector: HDMI
   resolution: 1440p@60
   bits: 8
@@ -22,6 +24,7 @@ modes:
   hdr: false
   vrr: false
   supported: true
+
 - connector: HDMI
   resolution: 4k@60
   bits: 8
@@ -29,6 +32,7 @@ modes:
   hdr: false
   vrr: false
   supported: true
+
 - connector: HDMI
   resolution: 4k@30
   bits: 8
@@ -36,3 +40,29 @@ modes:
   hdr: false
   vrr: false
   supported: true
+
+
+- connector: VGA
+  resolution: 800x600@85
+  supported: true
+  notes: Tested on Dell P1130 and LG 775FT, custom resolutions higher than 85hz can be created but cannot be enabled on Windows 24H2
+
+- connector: VGA
+  resolution: 1024x768@85
+  supported: true
+  notes: Tested on Dell P1130 via passive DVI->VGA adapter
+
+- connector: VGA
+  resolution: 1280x1024@85
+  supported: true
+  notes: Tested on Dell P1130 via passive DVI->VGA adapter
+
+- connector: VGA
+  resolution: 1600x1200@85
+  supported: true
+  notes: Tested on Dell P1130 via passive DVI->VGA adapter
+
+- connector: VGA
+  resolution: 1800x1440@75
+  supported: true
+  notes: Tested on Dell P1130 via passive DVI->VGA adapter
