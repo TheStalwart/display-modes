@@ -1,0 +1,42 @@
+gpu: Radeon HD 6450
+modes:
+- connector: VGA
+  resolution: 640x480@160
+  supported: true
+  notes: Tested on Dell P1130, requires EDID overriding in AMD Catalyst Control Center
+
+
+- connector: VGA
+  resolution: 800x600@160
+  supported: true
+  notes: Tested on Dell P1130, requires EDID overriding in AMD Catalyst Control Center
+
+- connector: VGA
+  resolution: 1024x768@85
+  supported: true
+  notes: Tested on Dell P1130
+
+- connector: VGA
+  resolution: 1024x768@140
+  supported: true
+  notes: Tested on Dell P1130, requires EDID overriding in AMD Catalyst Control Center
+
+- connector: VGA
+  resolution: 1280x1024@85
+  supported: true
+  notes: Tested on Dell P1130
+
+- connector: VGA
+  resolution: 1280x1024@100
+  supported: true
+  notes: Tested on Dell P1130, requires EDID overriding in AMD Catalyst Control Center
+
+- connector: VGA
+  resolution: 1600x1200@85
+  supported: true
+  notes: Tested on Dell P1130
+
+- connector: VGA
+  resolution: 1800x1440@75
+  supported: true
+  notes: Tested on Dell P1130
