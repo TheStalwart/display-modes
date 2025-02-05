@@ -47,3 +47,28 @@ modes:
   hdr: false
   vrr: false
   supported: true
+
+- connector: VGA
+  resolution: 800x600@85
+  supported: true
+  notes: Tested on Dell P1130 and LG 775FT, custom resolutions higher than 85hz can be created but cannot be enabled on Windows 24H2
+
+- connector: VGA
+  resolution: 1024x768@85
+  supported: true
+  notes: Tested on Dell P1130 via passive DVI->VGA adapter
+
+- connector: VGA
+  resolution: 1280x1024@85
+  supported: true
+  notes: Tested on Dell P1130 via passive DVI->VGA adapter
+
+- connector: VGA
+  resolution: 1600x1200@85
+  supported: true
+  notes: Tested on Dell P1130 via passive DVI->VGA adapter
+
+- connector: VGA
+  resolution: 1800x1440@75
+  supported: true
+  notes: Tested on Dell P1130 via passive DVI->VGA adapter
