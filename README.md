@@ -26,7 +26,7 @@ My goal is to eventually document actual capabilities and edge cases of every GP
 - USB-C
   - [ROG Strix XG17](https://rog.asus.com/us/monitors/below-23-inches/rog-strix-xg17ahpe-model/spec/) (1080p 240hz, SDR, FreeSync Premium)
 - VGA
-  - [Dell P1130](https://icecat.biz/en/p/dell/200-23385/monitors+crt-p1130-4702527.html) (2048 x 1536 @ 80hz, 1800x1440 @ 75hz, 1600x1200 @ 85hz, 1280x1024 @ 100hz, 1024x768 @ 140hz, 800x600 @ 160hz, 640x480 @ 160hz)
+  - [Dell P1130](https://icecat.biz/en/p/dell/200-23385/monitors+crt-p1130-4702527.html) (2048 x 1536 @ 80hz, 1800x1440 @ 75hz, 1600x1200 @ 85hz, 1280x1024 @ 100hz, 1024x768 @ 140hz, 800x600 @ 170hz, 640x480 @ 160hz)
   - [LG 775FT](https://www.manualslib.com/manual/769275/Lg-Flatron-775ft.html?page=18#manual) (1280x1024 @ 60hz, 1024x768 @ 85hz, 800x600 @ 100hz)
 
 ## Project supporters
