@@ -1,0 +1,31 @@
+gpu: GeForce FX 5200
+modes:
+- connector: VGA
+  resolution: 800x600@85
+  supported: true
+  notes: Tested on LG 775FT
+
+- connector: VGA
+  resolution: 800x600@100
+  supported: true
+  notes: Tested on LG 775FT
+
+- connector: VGA
+  resolution: 1024x768@85
+  supported: true
+  notes: Tested on Dell P1130, cannot go higher than 85hz even by defining custom resolutions
+
+- connector: VGA
+  resolution: 1280x1024@85
+  supported: true
+  notes: Tested on Dell P1130, cannot go higher than 85hz even by defining custom resolutions
+
+- connector: VGA
+  resolution: 1600x1200@85
+  supported: true
+  notes: Tested on Dell P1130
+
+- connector: VGA
+  resolution: 1800x1440@75
+  supported: true
+  notes: Tested on Dell P1130
