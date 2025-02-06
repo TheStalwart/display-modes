@@ -12,3 +12,8 @@
 .manufacturer_color_AMD {
   color: #ef0707;
 }
+
+/* Logo color according to https://logos-world.net/ati-logo/ */
+.manufacturer_color_ATI {
+  color: #ea1c2a;
+}
