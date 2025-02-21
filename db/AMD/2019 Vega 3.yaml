@@ -1,0 +1,28 @@
+gpu: Radeon Vega 3 Embedded
+modes:
+- connector: HDMI
+  resolution: 1440p@144
+  bits: 8-bit with dithering
+  color: RGB
+  hdr: true
+  vrr: true
+  supported: true
+  notes: Tested on LG 27GN800. Enabling HDR downgrades color to 8-bit with dithering
+
+- connector: HDMI
+  resolution: 1440p@144
+  bits: 8
+  color: RGB
+  hdr: false
+  vrr: true
+  supported: true
+  notes: Tested on LG 27GN800. Disabling HDR results in full 8-bit color
+
+- connector: HDMI
+  resolution: 1080p@240
+  bits: 8
+  color: RGB
+  hdr: false
+  vrr: true
+  supported: true
+  notes: Tested on ROG Strix XG17 display that does not support HDR
