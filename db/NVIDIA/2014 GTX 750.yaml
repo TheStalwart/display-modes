@@ -1,0 +1,17 @@
+gpu: GeForce GTX 750
+modes:
+- connector: HDMI
+  resolution: 1080p@120
+  bits: 8
+  color: RGB
+  hdr: false
+  vrr: false
+  supported: true
+
+- connector: HDMI
+  resolution: 1440p@60
+  bits: 8
+  color: RGB
+  hdr: false
+  vrr: false
+  supported: true
