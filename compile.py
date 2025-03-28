@@ -1,5 +1,6 @@
 import glob
 import json
+from operator import itemgetter
 import os
 import pathlib
 from dbgpu import GPUDatabase
@@ -40,4 +41,4 @@ for yaml_file_path in glob.glob(os.path.join(DB_ROOT, '**/*.yaml'), recursive=Tr
 
 # Dump output in JSON format for use by frontend
 with open(OUTPUT_JSON_FILE_PATH, "w", encoding='utf-8') as json_output_file:
-    json.dump(output, json_output_file, indent=2)
+    json.dump(sorted(output, key=itemgetter('release_year')), json_output_file, indent=2)
