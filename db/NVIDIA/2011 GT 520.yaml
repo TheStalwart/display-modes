@@ -54,3 +54,8 @@ modes:
   resolution: 1800x1440@75
   supported: true
   notes: Tested on Dell P1130
+
+- connector: VGA
+  resolution: 1920x1080@60
+  supported: true
+  notes: Tested on ASUS VE228DE
