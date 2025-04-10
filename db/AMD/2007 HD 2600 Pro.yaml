@@ -49,3 +49,8 @@ modes:
   resolution: 2048x1536@75
   supported: true
   notes: Tested on Dell P1130 via passive DVI->VGA adapter, requires EDID overriding in AMD Catalyst Control Center
+
+- connector: VGA
+  resolution: 1920x1080@60
+  supported: true
+  notes: Tested on ASUS VE228DE via passive DVI->VGA adapter
