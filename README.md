@@ -18,7 +18,7 @@ As of writing this section, i have a fleet of machines with different GPUs to te
 My goal is to eventually document actual capabilities and edge cases of every GPU in my possession.
 
 - HDMI
-  - [Samsung QN75C](https://www.rtings.com/tv/reviews/samsung/qn85c-qn85cd-qled) (4K 120hz, HDR, FreeSync Premium)
+  - [Samsung QN85C](https://www.rtings.com/tv/reviews/samsung/qn85c-qn85cd-qled) (4K 120hz, HDR, FreeSync Premium)
   - [LG 27GN800](https://www.lg.com/us/monitors/lg-27gn800-b-gaming-monitor) (1440p 144hz, HDR, G-Sync Compatible)
   - [ROG Strix XG17](https://rog.asus.com/us/monitors/below-23-inches/rog-strix-xg17ahpe-model/spec/) (1080p 240hz, SDR, FreeSync Premium)
 - DisplayPort

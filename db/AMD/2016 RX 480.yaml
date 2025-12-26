@@ -97,7 +97,7 @@ modes:
   hdr: true
   vrr: false
   supported: true
-  notes: Enabling HDR downgrades bit depth. Variable refresh rate is reported as "Supported by driver" in Windows, but Samsung QN75C TV reports "VRR Off"
+  notes: Enabling HDR downgrades bit depth. Variable refresh rate is reported as "Supported by driver" in Windows, but Samsung QN85C TV reports "VRR Off"
 
 - connector: HDMI
   resolution: 4k@60
@@ -106,4 +106,4 @@ modes:
   hdr: true
   vrr: false
   supported: true
-  notes: Enabling HDR downgrades bit depth. Variable refresh rate is reported as "Supported by driver" in Windows, but Samsung QN75C TV reports "VRR Off"
+  notes: Enabling HDR downgrades bit depth. Variable refresh rate is reported as "Supported by driver" in Windows, but Samsung QN85C TV reports "VRR Off"
