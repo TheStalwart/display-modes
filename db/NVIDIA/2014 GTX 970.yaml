@@ -1,0 +1,94 @@
+gpu: GeForce GTX 970
+modes:
+- connector: VGA
+  resolution: 800x600@85
+  supported: true
+  notes: Tested on Dell P1130 via passive DVI->VGA adapter
+
+- connector: VGA
+  resolution: 800x600@170
+  supported: true
+  notes: Requires creating custom resolution in NVIDIA Control Panel, tested on Dell P1130 via passive DVI->VGA adapter
+
+- connector: VGA
+  resolution: 1024x768@85
+  supported: true
+  notes: Tested on Dell P1130 via passive DVI->VGA adapter
+
+- connector: VGA
+  resolution: 1024x768@160
+  supported: true
+  notes: Requires creating custom resolution in NVIDIA Control Panel, tested on Dell P1130 via passive DVI->VGA adapter
+
+- connector: VGA
+  resolution: 1280x1024@85
+  supported: true
+  notes: Tested on Dell P1130 via passive DVI->VGA adapter
+
+- connector: VGA
+  resolution: 1280x1024@120
+  supported: true
+  notes: Requires creating custom resolution in NVIDIA Control Panel, tested on Dell P1130 via passive DVI->VGA adapter
+
+- connector: VGA
+  resolution: 1600x1200@85
+  supported: true
+  notes: Tested on Dell P1130 via passive DVI->VGA adapter
+
+- connector: VGA
+  resolution: 1600x1200@100
+  supported: true
+  notes: Requires creating custom resolution in NVIDIA Control Panel, tested on Dell P1130 via passive DVI->VGA adapter
+
+- connector: VGA
+  resolution: 1800x1440@75
+  supported: true
+  notes: Tested on Dell P1130 via passive DVI->VGA adapter
+
+- connector: VGA
+  resolution: 1800x1440@85
+  supported: true
+  notes: Requires creating custom resolution in NVIDIA Control Panel, tested on Dell P1130 via passive DVI->VGA adapter
+
+- connector: DP
+  resolution: 2560x1440@144
+  bits: 8
+  color: RGB
+  hdr: false
+  vrr: false
+  supported: true
+  notes: G-Sync on this GPU only works for _real_ "G-Sync Ultimate" displays and is not compatible with LG 27GN800 i tested on, which is "G-Sync Compatible"
+
+- connector: HDMI
+  resolution: 1080p@240
+  bits: 8
+  color: RGB
+  hdr: false
+  vrr: false
+  supported: true
+  notes: This GPU does not support FreeSync over HDMI. Tested on ROG Strix XG17 display that does not support HDR
+
+- connector: HDMI
+  resolution: 4k@60
+  bits: 8
+  color: RGB
+  hdr: false
+  vrr: false
+  supported: true
+
+- connector: HDMI
+  resolution: 4k@120
+  bits: 8
+  color: YCbCr420
+  hdr: false
+  vrr: false
+  supported: true
+
+- connector: HDMI
+  resolution: 4k@60
+  bits: 8
+  color: RGB
+  hdr: true
+  vrr: false
+  supported: true
+  notes: Samsung QN85C reports HDR is on, but what i see on the screen can only be described as overbright SDR. Cannot recommend this GPU for driving HDR TV
